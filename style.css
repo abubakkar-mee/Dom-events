@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#file{
+    display: none;
+    font-size: 40px;
+    background-color: yellow;
+}
+
+
+#btn{
+    display: block;
+    margin: auto;
+}
+
+
+#click{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
