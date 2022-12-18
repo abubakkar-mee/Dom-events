@@ -30,4 +30,8 @@
     outline: none;
     background-color: rgb(43, 204, 113);
     font-weight: bold;
+    transition:all 0.3s ease;
+}
+#click:active{
+    background-color:rgb(42,200,100);
 }
