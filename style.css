@@ -35,3 +35,14 @@
 #click:active{
     background-color:rgb(42,222,50);
 }
+
+.color-input{
+    display:none;
+}
+.color{
+    width:40px;
+    height:40px;
+    background-color:green;
+    border-radius:50%;
+    cursor: pointer;
+}
