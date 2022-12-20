@@ -19,7 +19,8 @@ click.addEventListener("click", (e) => {
 close.addEventListener("click", (e) => {
   // window.location.replace("http://www.google.com")
   // window.history.forward()
-  alert("Happy learning");
+  // alert("Happy learning");
+  audio.play();
 });
 
 color.addEventListener("click", (e) => {
@@ -30,3 +31,5 @@ color_input.addEventListener("input", (e) => {
   const color_value = e.target.value;
   document.body.style.backgroundColor = color_value;
 });
+
+const audio = new Audio("./assets/12.mp3")
